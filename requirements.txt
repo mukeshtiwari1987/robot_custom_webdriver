@@ -1,0 +1,2 @@
+robotframework-seleniumlibrary==6.5.0
+robotframework-tidy
