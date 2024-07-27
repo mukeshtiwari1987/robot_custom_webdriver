@@ -8,5 +8,5 @@ pip install -r requirements.txt
 * Configure the value of variable ${CHROMEDRIVER_PATH} as per your machine
 
 ### To read more about how to create custom Selenium Libraries visit the below website
-* [BroadcastSegment](https://stackoverflow.com/questions/23703870/pass-existing-webdriver-object-to-custom-python-library-for-robot-framework)
-* [SuppressSegment](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#getting-active-library-instance-from-robot-framework)
+* [StackOverflow](https://stackoverflow.com/questions/23703870/pass-existing-webdriver-object-to-custom-python-library-for-robot-framework)
+* [RobotFrameworkUserGuide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#getting-active-library-instance-from-robot-framework)
