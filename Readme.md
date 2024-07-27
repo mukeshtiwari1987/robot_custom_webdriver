@@ -10,3 +10,16 @@ pip install -r requirements.txt
 ### To read more about how to create custom Selenium Libraries visit the below website
 * [StackOverflow](https://stackoverflow.com/questions/23703870/pass-existing-webdriver-object-to-custom-python-library-for-robot-framework)
 * [RobotFrameworkUserGuide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#getting-active-library-instance-from-robot-framework)
+
+### How to run the tests?
+* Run tests without POM architecture
+```
+robot -d ./Results Test-Suites-Web/Login_Without_POM.robot
+```
+
+* Run tests with POM architecture
+```
+robot -d ./Results Test-Suites-Web/Login_With_POM.robot
+```
+
+* In the results you will notice the Keyword <em>Title Should Start With</em> which is a custom keyword imported from CustomSeleniumLibrary.py
